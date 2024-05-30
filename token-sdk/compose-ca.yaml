@@ -3,11 +3,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-version: '3.7'
+version: '3.8'
 
 services:
   ca_token_network:
-    image: hyperledger/fabric-ca:1.5.7
+    image: hyperledger/fabric-ca:1.5.9 
     labels:
       service: hyperledger-fabric
     environment:

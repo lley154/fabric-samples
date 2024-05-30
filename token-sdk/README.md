@@ -88,7 +88,7 @@ Prerequisites:
 
 ### Install dependencies
 
-Download the Fabric docker images and binaries. The code only works with Fabric CA 1.5.7+, so even if you cloned the fabric-samples repo before, you may have to re-run it to get the latest versions.
+Download the Fabric docker images and binaries. The code only works with Fabric CA 1.5.9 +, so even if you cloned the fabric-samples repo before, you may have to re-run it to get the latest versions.
 
 From the fabric-samples directory:
 
@@ -103,7 +103,7 @@ Make sure that the new binaries are in your path. Change the following line (rep
 export PATH=</your/path/to/>fabric-samples/bin:$PATH
 ```
 
-Validate that the CA is at 1.5.7 by executing `fabric-ca-client version`.
+Validate that the CA is at 1.5.9  by executing `fabric-ca-client version`.
 
 > Note: you can run this code from anywhere. If you are *not* running it from the fabric-samples/token-sdk folder, also set the following environment variable:
 > ```bash

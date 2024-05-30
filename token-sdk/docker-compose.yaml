@@ -1,4 +1,4 @@
-version: '3.7'
+version: '3.8'
 
 # fabric_test is the name of the fabric-samples test network.
 # By connecting to it, we can reach the peers at their DNS names
